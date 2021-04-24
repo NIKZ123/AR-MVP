@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="login-page.css">
-  <script defer src="login-page.js"></script>
+  <script defer src="index.js"></script>
 </head>
 
 <body>
+  
   <main id="main-holder">
     <h1 id="login-header">Login</h1>
     
@@ -20,7 +21,9 @@
     <form id="login-form">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="login-form-submit">
+      <!-- <input type="submit" value="Login" id="login-form-submit"> -->
+      <input type=button onClick="location.href='story.html'" value='Login' id="login-form-submit">
+      <input type=button onClick="location.href='signup.html'" value='Signup' id="login-form-submit">
     </form>
   
   </main>
