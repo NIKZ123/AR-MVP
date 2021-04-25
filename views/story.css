@@ -1,0 +1,30 @@
+html {
+    height: 80%;
+  }
+  
+  h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+
+  body {
+    height: 50%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #f5f5dc;
+  }
+  #main-holder {
+    width: 30%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #C42847;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+
+  #story-desc {
+
+    width: 30%;
+  }
